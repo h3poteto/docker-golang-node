@@ -7,4 +7,3 @@ RUN set -x \
     nodejs \
     curl
 
-USER go
