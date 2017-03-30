@@ -4,6 +4,7 @@ USER root
 
 RUN set -x \
     && apk add --no-cache \
-    nodejs
+    nodejs \
+    curl
 
 USER go
